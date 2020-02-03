@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: rgb(19, 18, 18);
+    line-height: 1.6;
+    color: #fff;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+/*header*/
+  header{
+    background: transparent;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+  }
+  header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding{
+    float: left;
+  }
+  header .logo h1 a{
+    margin: 0;
+    font-size: 20px;
+  }
+  .logo .bold{
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  .highlight{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-style: italic;
+  }
+  header .current a{
+    font-weight: bold;
+  }
+  header a:hover, .button:hover{
+      opacity: .7;
+  }
+  #showcase{
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.93), rgba(0,0,0, 0.5)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    line-height: 1.2;
+    overflow: hidden;
+  }
+  #showcase .container{
+      text-align: center;
+  }
+  #showcase h1{
+    margin-top: 140px;
+    font-size: 90px;
+    font-family: 'Lemon Tuesday';
+    color: #fff;
+  }
+  #showcase .subhighlight{
+    font-size: 40px;
+    font-family: 'Lemon Tuesday';
+    color: #fff;
+  }
+  #showcase .highlight-title{
+    font-size: 110px;
+    font-family: 'Lemon Tuesday';
+    color: #fff;
+    letter-spacing: 10px;
+    padding-bottom: 100px;
+  }
+  .button {
+    color: #bbbbbb;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+  }
+
+  /*OUR WORK */
+  #ourwork{
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.93), rgba(0,0,0, 0.5)), url('../img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+  }
+  #ourwork .section-wrap{
+    margin-top: 20%;
+    margin-left: 50%;
+  }
+  .title{
+    font-family: 'Lemon Tuesday';
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+  .divider{
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  .content{
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+/*GALLERY*/
+#gallery{
+    width: 100%;
+    height: 800px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.gallery-wrap1{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+.gallery-wrap1 h2{
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
+#gallery .gallery1 img{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top:0;
+    left:0;
+    box-shadow: 5px 10px 18px #000;
+}
+#gallery .gallery2 img{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gallery-wrap2{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+#gallery .gallery3 img{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: -1;
+}
+#gallery .gallery4 img{
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+    box-shadow: 5px 10px 18px #000;
+}
+#gallery .gallery5 img{
+    width: 30%;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    z-index: -2;
+}
+/*ABOUT*/
+#about{
+    background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.93), rgba(0,0,0, 0.5)), url('../img/img6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+  }
+  #about .section-wrap{
+    margin-top: 20%;
+    margin-left: 50%;
+  }
+  /*TEAM*/
+  #team{
+    width: 100%;
+    height: 700px;
+    background: #000;
+    position: relative;
+  }
+  #team h2{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+  }
+  #team hr{
+    margin: 0 auto;
+  }
+  .team-wrap{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .team{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 80px;
+  }
+  .team img{
+    width: 96%;
+    margin: 3px;
+    height: 280px;
+    border: 2px #fff solid;
+  }
+  .team-name, .name{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .team-content, .position-title{
+    font-size: 10px;
+    color: #969494;
+  }
+  .arrow a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+  }
+  .arrow-left{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+  }
+  .arrow-right{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+  }
+
+/*Testimonials*/
+
+#testimonials{
+  background-image: linear-gradient(to bottom right, rgba(0,0,0, 0.93), rgba(0,0,0, 0.5)), url('../img/img2.jpg');
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+#testimonials .title-condensed{
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#testimonials .divider{
+  margin: 0 auto;
+}
+#testimonials .section-wrap{
+  margin-top: 100px;
+  width: 50%;
+}
+#testimonials .section-wrap img{
+  width: 30%;
+  height: 30%; 
+  border: 2px #fff solid;
+  margin-bottom: 20px;
+}
+#testimonials .name{
+  padding-bottom: 10px;
+}
+#testimonials .position-title{
+  padding-bottom: 40px;
+}
+#testimonials .dots .dot{
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  margin: 0 2px;
+  background-color: #fff;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-flex;
+}
+/*FOOTER*/
+footer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer .container{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+footer .logo p{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+}
+footer ul{
+  display: inline-flex;
+}
+footer li{
+  list-style: none;
+  padding: 20px;
+}
+footer h3{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p{
+  font-size: 10px;
+  color:#969494;
+}
+footer i{
+  font-size: 20px;
+  color: #969494;
+}
+
+/*Media queries*/
+@media(max-width:768px){
+  header #branding,
+  header nav{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+  #showcase h1{
+    font-size: 60px;
+    margin-top: 200px;
+  }
+  #showcase .highlight-title{
+    font-size: 70px;
+  }
+  #ourwork{
+    height: 600px;
+  }
+  .gallery-wrap1 h2{
+    top: 100px;
+    left: 100px;
+  }
+  #team{
+    height: 600px;
+  }
+  .team img{
+    height: 180px;
+  }
+  footer{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:420px){
+  #ourwork {
+    height: 400px;
+  }
+  #ourwork .section-wrap{
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  #about{
+    height: 400px;
+  }
+  #about .section-wrap{
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  #gallery{
+    height: 400px;
+}
+.gallery-wrap1{
+    height: 200px;
+}
+#gallery .gallery1 img{
+    height: 210px;
+}
+#gallery .gallery2 img{
+    height: 200px;
+}
+.gallery-wrap2{
+    height: 150px;
+}
+#gallery .gallery3 img{
+    height: 300px;
+    top: -50px;
+}
+#gallery .gallery4 img{
+    height: 100px;
+    top: -20px;
+}
+#gallery .gallery5 img{
+    width: 30%;
+    height: 170px;
+    top: 80px;
+}
+
+  .team{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .team img{
+    width: 25%;
+    margin: 3px;
+    height: 80px;
+    border: 2px #fff solid;
+  }
+  .team-name, .name{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  .team-content, .position-title{
+    font-size: 8px;
+  }
+  .arrow-left{
+    display: none;
+  }
+  .arrow-right{
+    display: none;
+  }
+  #testimonials{
+    height: 600px;
+  }
+#testimonials .section-wrap{
+  margin-top: 20px;
+  width: 100%;
+}
+#testimonials .section-wrap img{
+  width: 100px;
+  height: 100px; 
+  padding-bottom: 10px;
+}
+
+footer .logo p{
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.contact-list, .social-media{
+  margin-top: 20px;
+}
+footer ul{
+  display: inline-block;
+}
+footer li{
+  padding: 2px;
+}
+footer h3{
+  font-size: 10px;
+  padding-bottom: 2px;
+  padding-top: 0;
+}
+footer p{
+  font-size: 6px;
+}
+footer i{
+  font-size: 12px;
+}
+
+}
